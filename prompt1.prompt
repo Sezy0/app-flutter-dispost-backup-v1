@@ -1,0 +1,42 @@
+
+### 🦉 Versi Revisi: Deskripsi Welcome Screen dengan Owl
+
+**Gambar ini adalah contoh tampilan *welcome screen* modern, terinspirasi dari aplikasi Revolut, namun dengan objek utama diganti menjadi burung hantu (Owl).**
+
+---
+
+### 🎨 Penjelasan Background:
+
+* **Visual Style:**
+  Latar belakang tetap menggunakan efek **warp speed** atau **hyperspace** — banyak garis cahaya warna-warni (biru, ungu, kuning neon) yang menyatu ke satu titik pusat. Memberi kesan kecepatan tinggi dan dimensi luar angkasa.
+
+* **Warna:**
+  Dominan **hitam** atau **midnight dark**, kontras dengan efek garis neon yang membuat tampilan lebih **futuristik dan high-end**.
+
+---
+
+### 🦉 Objek Utama (Pengganti Koin):
+
+* **Objek utama di tengah diganti menjadi burung hantu 3D.**
+* Owl ditampilkan dengan tampilan **metallic, glossy**, atau **animated**, mengambang di atas latar belakang warp.
+* Bisa dalam pose elegan (diam tapi ekspresif) atau ringan animasi (sayap berkedip, kepala berputar pelan).
+* Memberi kesan **cerdas, misterius, dan teknologi tinggi** — cocok untuk branding AI, Web3, atau automation.
+
+---
+
+### ✨ Kesan Desain:
+
+* **Elegan & premium**, tetap menjaga simplicity dan fokus.
+* Memberikan daya tarik visual sejak layar pertama dibuka.
+* Burung hantu jadi identitas unik aplikasi — menggantikan logo/koin Revolut.
+
+---
+
+### 🔧 Implementasi Flutter:
+
+* Background: bisa dibuat dengan video looping atau `CustomPaint` + `AnimatedBuilder`.
+* Owl:
+
+  * **Lottie** jika ingin animasi ringan & ringan performa.
+  * **flutter\_3d\_obj** atau `flutter_cube` kalau mau efek 3D interaktif.
+* UI Button (`Log in`, `Sign up`): gunakan `AnimatedContainer` atau `FadeTransition` agar smooth dan clean kayak Revolut.
